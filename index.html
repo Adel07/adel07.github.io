@@ -1,99 +1,84 @@
-<!doctype html>	
-	<html>
-		<head>
-			<title> Adel's website </title>
-				<link rel="stylesheet" type="text/css" href="css/text.css"> <!-- <title> and <link rel should always be within the head statement-->
+<!doctype html>
+<html>
+	<head>
+		<title> Adel's website </title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="Cau_Bootstrap/newstylesheet.css">
+		<link rel="stylesheet" type="text/css" href="css/animate.css"> <!-- Use this website to add animation tricks https://daneden.github.io/animate.css/ -->
 
-		</head>
+		<!-- http://codeatuni.netlify.com/html-css/4--> 
 
-		<p class ="p1"> 
-				Welcome to Coding 101 
-		</p>
+	</head>
 
-		<div class="p2"> 
-				Contact Us
-				<span class = "space"> 
+	<body>
+			
+		<div class="container-fluid"> <!-- everything defined within container page size (put container-fluid to exceed all limitations of the page) -->
+		<!-- first row -->
+			<div class ="row">
+				<div class = "col-md-12">
+					<div class = "jumbotron text-center">
+						<h1 class = "animated flip infinite"> Welcome to Coding 101 </h1>
+						<p class = "animated fadeInRightBig infinite"> Want to build your own website today? </p>
+						
+						<a href="mailto:adel.burton@hotmail.com?subject=Hire me! &body=Dear Adel, I would love the opportunity to hire you as my personal coding tutor. Please can you set up an appointment at your next availability.">
+						<h2 class = "animated bounce infinite"> Hire a Tutor </h2>
+						</a>
 
-				</span> 
-		</div>
+						<br>
 
-		<div class="p3">
-				Learn to Code
-				<span class = "space2"> 
+						<a href='#' class = "animated zoomOutDown infinite"> Sign In |  </a> 
+						<a href='#' class = "animated zoomOutDown infinite"> Register </a>
+			
+					
 
-				</span> 
-		</div>
+						</a>
+					</div>
+				</div>
+			</div>
 
-		<div class="p4">
-				Connect with Us
-				<span class="space3">
-				</span>
-		</div>
+			<div class = "row">
+				<div class = "col-md-4"> <!-- use the number 4 because 12/3=4 (the number 12 was defined at beginning of the container-->
+					<h2 class = "animated flip infinite"> Why Us? <h2>	
+					<p class = "animated zoomIn infinite"> ... </p>
+					<!-- <img src="">	 -->	
+				</div>
+			
 
-		<div class="p5">
-				<a href="http://www.facebook.com"> Sign in </a>
+				<div class = "col-md-4">
+					<h2 class = "animated flip infinite"> About Us <h2>
+					<p class = "animated zoomIn infinite"> ... </p>
+				</div>
+			
+			
+				<div class ="col-md-4">
+					<h2 class = "animated flip infinite"> Connect with Us <h2>
+					<p class = "animated zoomIn infinite"> ... </p>
+				</div>
 
-		</div>
+			<br>
+			<br>
+
+			<div class ="row">
+				<div class="col-md-4 col-md-offset-4"> <!-- use offset to set in the middle" --> 
+
+				<iframe class = "animated zoomIn infinite" src="https://www.google.com/maps/embed?pb=!1m0!3m2!1sen!2sus!4v1480252629971!6m8!1m7!1s8hZvNDyjTEaTw7mfVbYJ7g!2m2!1d25.03370095054902!2d121.5647288561141!3f328.0238063991161!4f-40.427931847587246!5f1.2281450554472153" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+				</div>
+
+			</div>
 
 
+		</div> 
+
+		</a>
+
+	</body>
+
+	<p>
 		
-		<body>
 
-		<div class="body">
-
-				<!-- Use the attribute, target="add URL" to allow  this website to be opened in a separate tab -->
-				<br>
-				<br>
-				<br>
-
-			<!--  Ctrl Shift T to reopen tab with history -->
-
-			<!-- Input Types -->
-
-			
-
-			<p class p6 = "p5"> 
-				Create New Account 
-			</p>
-
-			
-			
-			<br>
-
-			<!-- using the inout attribute tag to generate inout text-->
-			 <form action = "action page.php"> <!-- The <form action = "insert text" attribute is the proceediing actions that take place after a user completes the form. -->
-			 	 Name:
-			 	 <br>
-				  <input type="text" name="Customer_Name">
-				  <br>
-				  Surname:
-				  <br>
-				  <input type="text" name="Surname">
-				  <br>
-				  <br>
-				 
-				<p>Please select your gender </p>
-				<input type="radio" name ="boy"> male
-
-				<br>
-
-				<input type="radio" name ="girl"> female 
-
-				<br>
-
-				<br> <br>
-
-				 <input type="submit" name="submit"> <!-- -submit form option ->
-				  <input type = "reset" name = "reset"> The input type = "reset" is used to reset the form-->
-
-			</form> 
-
-			<br>
-			<br>
-
-		</div>
-
-		</body>
+	</p>
+		
 
 
-	</html> 
+
+</html>
