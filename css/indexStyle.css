@@ -1,0 +1,39 @@
+body{
+
+	background: url("http://melissavandyke.com/wp-content/uploads/2015/09/code.jpg") no-repeat center center fixed; 
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		font-family: 'Averia Libre', cursive;
+
+}
+
+
+h1{
+	font-family: 'Inknut Antiqua', serif;
+	border: 50px solid black; /* how to add BORDER */
+}
+
+
+h3 {
+	color: white;
+	font-family: 'Inknut Antiqua', serif;
+
+}
+
+
+h2 {
+	color: black !important; /* This '!important' code allows the overriding and prioritization over other stylesheets included */
+	
+}
+
+a {
+	color: blue;
+	
+}
+
+
+.hireATutor {
+	color: blue !important; 
+}
