@@ -5,35 +5,56 @@ body{
 		-moz-background-size: cover;
 		-o-background-size: cover;
 		background-size: cover;
-		font-family: 'Averia Libre', cursive;
-
+		font-family: 'Neuton', serif;
+		
 }
 
 
 h1{
-	font-family: 'Inknut Antiqua', serif;
-	border: 50px solid black; /* how to add BORDER */
-}
-
-
-h3 {
-	color: white;
-	font-family: 'Inknut Antiqua', serif;
-
+	
+	font-family: 'Neuton', serif;
+	border: 50px solid black; /* how to add BORDER around text */
+	background-color: white;
+	padding: 100px 100px;	
 }
 
 
 h2 {
 	color: black !important; /* This '!important' code allows the overriding and prioritization over other stylesheets included */
-	
 }
 
 a {
 	color: blue;
-	
 }
 
 
 .hireATutor {
 	color: blue !important; 
 }
+
+
+.VirtuallyImmerseYourself {
+	
+	font-family: 'Inknut Antiqua', serif;
+	border: 100px white;
+	background-color: black;
+	padding: 20px 20px;
+	color: lightblue;
+	background: url("http://melissavandyke.com/wp-content/uploads/2015/09/code.jpg") no-repeat center center fixed; 
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+
+}
+
+/*
+.jumbotron{
+	background: url("http://melissavandyke.com/wp-content/uploads/2015/09/code.jpg") no-repeat center center fixed; 
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+}
+*/
+
